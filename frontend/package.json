@@ -1,0 +1,38 @@
+{
+  "name": "czunigacuts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "innov8 build",
+    "preview": "innov8 preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
+    "aos": "^2.3.4",
+    "axios": "^1.8.4",
+    "bcrypt": "^5.1.1",
+    "bootstrap": "^5.3.3",
+    "bootstrap-vue-3": "^0.3.12",
+    "chart.js": "^4.4.8",
+    "dayschedule-widget": "^1.2.3",
+    "vue": "^3.4.37",
+    "vue-carousel": "^0.11.0",
+    "vue-chartjs": "^5.3.2",
+    "vue-router": "^4.5.0",
+    "vue-toastification": "^2.0.0-rc.5",
+    "vue3-carousel": "^0.3.4",
+    "xlsx": "^0.18.5",
+    "xlsx-style": "^0.8.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.11",
+    "vite": "^6.2.0"
+  }
+}
