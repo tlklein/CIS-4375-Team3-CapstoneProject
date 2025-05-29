@@ -1,3 +1,5 @@
+![banner](Screenshot 2025-04-09 153009.png)
+
 # Team 3 - Innov8
 # CIS-4375-Team3-CapstoneProject
 
