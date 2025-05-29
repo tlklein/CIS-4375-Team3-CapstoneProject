@@ -1,4 +1,4 @@
-![banner](Screenshot 2025-04-09 153009.png)
+![banner](https://github.com/tlklein/CIS-4375-Team3-CapstoneProject/blob/main/Screenshot%202025-04-09%20153009.png)
 
 # Team 3 - Innov8
 # CIS-4375-Team3-CapstoneProject
