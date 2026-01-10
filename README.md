@@ -81,7 +81,7 @@ operational goals
 - Trinity Klein - Associate Project Manager
 - Anthony Perla - Product Owner
 - Isaiah Morales - Lead Developer
-- Jeremiah Jarina, Front-end Developer
+- Jeremiah Jarina - Front-end Developer
 - Sarah Yao - Back-end Developer
 - Moshood Elias - Solution Architect
 
