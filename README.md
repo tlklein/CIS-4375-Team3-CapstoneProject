@@ -46,26 +46,21 @@ The system architecture and workflows were iteratively refined based on stakehol
 
 ## Tech Stack
 
-### Frontend
-
+Frontend
 - Vue.js - component-based UI for the public website and private management dashboard
 
-### Backend
-
+Backend
 - Node.js
 - Express.js - RESTful API for client, service, and event management
 
-### Database
-
+Database
 - MySQL - relational data modeling for customers, appointments, and services
 - AWS RDS - managed database hosting with automated backups and availability
 
-### Deployment & Infrastructure
-
+Deployment & Infrastructure
 - AWS - cloud hosting and managed services for application infrastructure
 
-### Development Practices
-
+Development Practices
 - Full-stack separation of concerns (frontend, API, data layer)
 - Environment-based configuration for local and cloud deployments
 
