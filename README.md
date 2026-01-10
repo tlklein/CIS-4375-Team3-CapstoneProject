@@ -164,4 +164,4 @@ Refer to the frontend and backend directories for environment setup and executio
 
 - Platform-first thinking: The architecture and artifacts (ERD, swim lanes, future architecture) were created with extensibility and integration in mind, enabling future moves to cloud-native patterns, observability, and infrastructure automation.
 
-- Technical Delivery: Combines technical delivery, measurable operational improvements, and program-management experience — a compact evidence package that speaks to both engineering capability and program execution.
+- Technical delivery: Combines technical delivery, measurable operational improvements, and program-management experience — a compact evidence package that speaks to both engineering capability and program execution.
