@@ -6,12 +6,12 @@
 The Barber Shop Management System will be a web-based solution enabling Carlos Zuniga, a local barber, to manage appointments, customer information, and basic business data. The goal is to streamline daily operations, reduce scheduling conflicts, and enhance customer service.
 
 ## Team Members
-Emad Abbasi, Project Manager
-Trinity Klein, Associate Project Manager
-Anthony Perla, 	Product Owner
-Isaiah Morales, Lead Developer
-Jeremiah Jarina, Front-end Developer	
-Sarah Yao, Back-end Developer
+Emad Abbasi, Project Manager<br>
+Trinity Klein, Associate Project Manager<br>
+Anthony Perla, Product Owner<br>
+Isaiah Morales, Lead Developer<br>
+Jeremiah Jarina, Front-end Developer<br>
+Sarah Yao, Back-end Developer<br>
 Moshood Elias, Solution Architect	
 
 ---
@@ -40,9 +40,9 @@ Moshood Elias, Solution Architect
 
 ## Documentation
 
-The project management documents are in the folder called 'Documentation'. A demo video can also be found in the same folder, done by Jeremiah. A PDF of the final presentation demo is also in that folder as well.  
+The project management documents are in the folder called 'Documentation'. A demo video can also be found in the same folder, done by Jeremiah. A PDF of the final presentation demo is also in that folder as well. The project management documents are in the 'Project Management Documents' Folder, broken down by topic. The technical documents are in the 'Technical Documents' Folder.
 
-## How To Install
+## How To Copy
 
 To copy this repo, put in the following into the CLI
 
