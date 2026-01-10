@@ -2,6 +2,19 @@
 
 ![banner](/Documentation/Screenshot%202025-04-09%20153009.png)
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Problem Statement](#problem-statement)
+- [Solution](#solution)
+- [Technology Stack](#technology-stack)
+- [Key Contributions](#key-contributions)
+- [Architecture & Design Artifacts](#architecture--design-artifacts)
+- [Lessons Learned](#lessons-learned)
+- [Documentation & Deliverables](#documentation--deliverables)
+- [Repository Usage](#repository-usage)
+- [Why This Project Matters](#why-this-project-matters)
+
 ## Overview
 
 The Innov8 Barber Shop Management System is a web-based platform
@@ -21,7 +34,7 @@ Local service-based businesses often rely on manual tools for
 scheduling and customer tracking, leading to missed
 appointments, data inconsistency, and operational inefficiencies.
 
-## Solutions
+## Solution
 
 Designed and delivered a centralized management platform that:
 
@@ -30,6 +43,31 @@ Designed and delivered a centralized management platform that:
 - Provides a scalable foundation for future feature expansion
 
 The system architecture and workflows were iteratively refined based on stakeholder feedback and implementation constraints.
+
+## Tech Stack
+
+### Frontend
+
+- Vue.js - component-based UI for the public website and private management dashboard
+
+### Backend
+
+- Node.js
+- Express.js - RESTful API for client, service, and event management
+
+### Database
+
+- MySQL - relational data modeling for customers, appointments, and services
+- AWS RDS - managed database hosting with automated backups and availability
+
+### Deployment & Infrastructure
+
+- AWS - cloud hosting and managed services for application infrastructure
+
+### Development Practices
+
+- Full-stack separation of concerns (frontend, API, data layer)
+- Environment-based configuration for local and cloud deployments
 
 ## Key Achievements
 
@@ -89,7 +127,19 @@ constraints, reflecting optimized operational processes.
 
 ![diagram](/Documentation/Technical%20Documents/Innov8-Team3-SP2025-CIS4375-FinalSwimLane.JPG)
 
-## Documentation
+## Lessons Learned
+- Designing for real users changes priorities
+- Building for a real business owner highlighted the importance of usability, clear workflows, and operational simplicity over purely technical elegance.
+- Data modeling is foundational
+Early schema decisions in MySQL directly impacted API design, query performance, and future extensibility, reinforcing the value of upfront database planning.
+- Frontend–backend contracts matter
+Clearly defined API interfaces reduced integration friction and improved parallel development across team roles.
+- Cloud-managed services reduce operational overhead
+Using AWS RDS eliminated the need to manage database infrastructure manually, allowing the team to focus on application logic and reliability.
+- Iterative refinement beats perfect upfront design
+Comparing initial and final swim lane diagrams revealed how feedback-driven iteration leads to more efficient and realistic system workflows.
+
+## Documentation & Deliverables 
 
 - Project management artifacts (scope, planning, and execution
 documents)
@@ -108,3 +158,11 @@ gh repo clone https://github.com/tlklein/CIS-4375-Team3-CapstoneProject
 ```
 
 Refer to the frontend and backend directories for environment setup and execution instructions.
+
+## Why This Project Matters
+
+This project demonstrates the design and delivery of a real-world, full-stack system built for a non-technical business owner, balancing usability, reliability, and maintainability. Rather than focusing solely on features, the work emphasizes requirements translation, system boundaries, and operational workflows—key skills in enterprise and mission-critical environments.
+
+From an engineering perspective, the application reflects production concerns such as separation of public and private access, data integrity, and scalable backend services backed by a managed cloud database. Architectural decisions were made with future extensibility in mind, enabling the platform to evolve alongside business growth without major rework.
+
+Beyond code, the project highlights collaboration across roles, iterative design using diagrams and workflow modeling, and structured delivery—mirroring how modern cloud and platform teams operate. The result is a practical, end-to-end system that aligns technical execution with real user needs and business outcomes.
