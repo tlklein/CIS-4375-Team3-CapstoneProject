@@ -14,8 +14,6 @@ Jeremiah Jarina, Front-end Developer<br>
 Sarah Yao, Back-end Developer<br>
 Moshood Elias, Solution Architect	
 
----
-
 ## Diagrams
 
 ### Scope

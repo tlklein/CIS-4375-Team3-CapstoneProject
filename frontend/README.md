@@ -1,12 +1,15 @@
-## FRONTEND ##
-Open a terminal and navigate to the frontend directory using Visual Studio Code or Command Prompt
+# FRONTEND INSTRUCTIONS  
 
-npm install
+1. Open a terminal and navigate to the frontend directory using Visual Studio Code or Command Prompt
 
-npm run dev
+    ```bash
+    npm install
 
-Create a .env file in the frontend directory
+    npm run dev
+    ```
 
-Copy and paste the following into the .env file:
+2. Create a .env file in the frontend directory
 
-VITE_ROOT_API=http://localhost:3004
+3. Copy and paste the following into the .env file:
+
+4. VITE_ROOT_API=<http://localhost:3004>

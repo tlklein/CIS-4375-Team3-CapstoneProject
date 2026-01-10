@@ -1,11 +1,19 @@
-npm install 
-npm install chart.js vue-chartjs
-npm install bcrypt
+# SOURCE INSTRUCTIONS
 
-npm run dev
+1. Run the following commands into the terminal:
 
-npm install bootstrap bootstrap-vue-3
+    ```bash
+    npm install 
+    npm install chart.js vue-chartjs
+    npm install bcrypt
 
-create a .env file in the root directory of the frontend with this line:
-VITE_ROOT_API= http://localhost:3004
+    npm run dev
 
+    npm install bootstrap bootstrap-vue-3
+    ```
+
+2. create a .env file in the root directory of the frontend with this line:
+
+    ```bash
+    VITE_ROOT_API= http://localhost:3004
+    ```
