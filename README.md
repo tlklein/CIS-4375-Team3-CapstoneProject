@@ -82,8 +82,8 @@ operational goals
 - Anthony Perla - Product Owner
 - Isaiah Morales, Lead Developer
 - Jeremiah Jarina, Front-end Developer
-- Sarah Yao, Back-end Developer
-- Moshood Elias, Solution Architect
+- Sarah Yao - Back-end Developer
+- Moshood Elias - Solution Architect
 
 ## Architecture & Design Diagrams
 
@@ -156,8 +156,12 @@ Refer to the frontend and backend directories for environment setup and executio
 
 ## Why This Project Matters
 
-This project demonstrates the design and delivery of a real-world, full-stack system built for a non-technical business owner, balancing usability, reliability, and maintainability. Rather than focusing solely on features, the work emphasizes requirements translation, system boundaries, and operational workflows—key skills in enterprise and mission-critical environments.
+- End-to-end systems thinking: The project spans user-facing UX (Vue), API design (Node/Express), and persistent storage (MySQL on AWS RDS). That full-stack scope shows you can design and operate cross-layer systems, not just individual components.
 
-From an engineering perspective, the application reflects production concerns such as separation of public and private access, data integrity, and scalable backend services backed by a managed cloud database. Architectural decisions were made with future extensibility in mind, enabling the platform to evolve alongside business growth without major rework.
+- Operational readiness: Implemented deployment and environment practices (containerization and CI/CD workflows), data modeling, and backup/availability considerations — all critical for moving from prototype to repeatable, supportable production services.
 
-Beyond code, the project highlights collaboration across roles, iterative design using diagrams and workflow modeling, and structured delivery—mirroring how modern cloud and platform teams operate. The result is a practical, end-to-end system that aligns technical execution with real user needs and business outcomes.
+- Team & stakeholder experience: Acting as Associate Project Manager required requirements gathering, risk management, and cross-functional coordination — transferable skills for mission-driven, process-heavy environments.
+
+- Platform-first thinking: The architecture and artifacts (ERD, swim lanes, future architecture) were created with extensibility and integration in mind, enabling future moves to cloud-native patterns, observability, and infrastructure automation.
+
+ - Recruiter signal: Combines technical delivery, measurable operational improvements, and program-management experience — a compact evidence package that speaks to both engineering capability and program execution.
