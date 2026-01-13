@@ -2,19 +2,6 @@
 
 ![banner](/Documentation/Screenshot%202025-04-09%20153009.png)
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Problem Statement](#problem-statement)
-- [Solution](#solution)
-- [Technology Stack](#technology-stack)
-- [Key Contributions](#key-contributions)
-- [Architecture & Design Artifacts](#architecture--design-artifacts)
-- [Lessons Learned](#lessons-learned)
-- [Documentation & Deliverables](#documentation--deliverables)
-- [Repository Usage](#repository-usage)
-- [Why This Project Matters](#why-this-project-matters)
-
 ## Overview
 
 The Innov8 Barber Shop Management System is a web-based platform
@@ -50,7 +37,7 @@ Frontend
 - Vue.js - component-based UI for the public website and private management dashboard
 
 Backend
-- Node.js
+- Node.js - JavaScript runtime for server-side logic
 - Express.js - RESTful API for client, service, and event management
 
 Database
