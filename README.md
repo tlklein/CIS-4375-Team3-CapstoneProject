@@ -2,88 +2,55 @@
 
 ![banner](/Documentation/Screenshot%202025-04-09%20153009.png)
 
-## Table of Contents
+## Project Overview
 
-- [Overview](#overview)
-- [Problem Statement](#problem-statement)
-- [Solution](#solution)
-- [Technology Stack](#technology-stack)
-- [Key Contributions](#key-contributions)
-- [Architecture & Design Artifacts](#architecture--design-artifacts)
-- [Lessons Learned](#lessons-learned)
-- [Documentation & Deliverables](#documentation--deliverables)
-- [Repository Usage](#repository-usage)
-- [Why This Project Matters](#why-this-project-matters)
+The Innov8 Barber Shop Management System is a web-based platform designed to streamline daily operations for a local barbershop by centralizing appointment scheduling, customer management, and business workflows. The system reduces scheduling conflicts, improves operational visibility, and enhances customer experience through structured data management and role-based workflows.
 
-## Overview
+This project emphasized real-world requirements gathering, iterative system design, and cross-functional collaboration, simulating enterprise software delivery practices.
 
-The Innov8 Barber Shop Management System is a web-based platform
-designed to streamline daily operations for a local barbershop by
-centralizing appointment scheduling, customer management, and
-business workflows. The system reduces scheduling conflicts,
-improves operational visibility, and enhances customer experience
-through structured data management and role-based workflows.
+Designed and delivered a centralized full-stack management platform for local service-based businesses, addressing inefficiencies caused by manual scheduling and customer tracking. The system digitizes appointment scheduling and client records, enforces structured workflows to reduce operational errors, and provides a scalable foundation for future feature expansion. 
 
-This project emphasized real-world requirements gathering,
-iterative system design, and cross-functional collaboration,
-simulating enterprise software delivery practices.
-
-## Problem Statement
-
-Local service-based businesses often rely on manual tools for
-scheduling and customer tracking, leading to missed
-appointments, data inconsistency, and operational inefficiencies.
-
-## Solution
-
-Designed and delivered a centralized management platform that:
-
-- Digitizes appointment scheduling and customer records
-- Enforces structured workflows to reduce operational errors
-- Provides a scalable foundation for future feature expansion
-
-The system architecture and workflows were iteratively refined based on stakeholder feedback and implementation constraints.
-
-## Tech Stack
-
-Frontend
-- Vue.js - component-based UI for the public website and private management dashboard
-
-Backend
-- Node.js
-- Express.js - RESTful API for client, service, and event management
-
-Database
-- MySQL - relational data modeling for customers, appointments, and services
-- AWS RDS - managed database hosting with automated backups and availability
-
-Deployment & Infrastructure
-- AWS - cloud hosting and managed services for application infrastructure
-
-Development Practices
-- Full-stack separation of concerns (frontend, API, data layer)
-- Environment-based configuration for local and cloud deployments
-
-## Key Achievements
-
-- Coordinated requirements gathering and scope definition with
-stakeholders
-- Translated business needs into technical and architectural
-artifacts
-- Supported delivery of a full-stack web application through
-structured project management
-- Ensured alignment between system design, implementation, and
-operational goals
+Through iterative refinement based on stakeholder feedback, I coordinated requirements gathering, translated business needs into technical and architectural artifacts, and ensured alignment between design, implementation, and operational goals, delivering a reliable, user-focused solution that streamlined operations and enhanced business efficiency.
 
 ## Team Members
 
 - Emad Abbasi - Project Manager
 - Trinity Klein - Associate Project Manager
 - Anthony Perla - Product Owner
-- Isaiah Morales, Lead Developer
-- Jeremiah Jarina, Front-end Developer
+- Isaiah Morales - Lead Developer
+- Jeremiah Jarina - Front-end Developer
 - Sarah Yao - Back-end Developer
 - Moshood Elias - Solution Architect
+
+## Tech Stack
+
+Frontend
+- Vue.js: component-based UI for the public website and private management dashboard
+
+Backend
+- Node.js
+- Express.js: RESTful API for client, service, and event management
+
+Database
+- MySQL: relational data modeling for customers, appointments, and services
+- AWS RDS: managed database hosting with automated backups and availability
+
+Deployment & Infrastructure
+- AWS: cloud hosting and managed services for application infrastructure
+
+Development Practices
+- Full-stack separation of concerns (frontend, API, data layer)
+- Environment-based configuration for local and cloud deployments
+
+## Documentation & Deliverables 
+
+- Project management artifacts (scope, planning, and execution
+documents)
+- Technical documentation outlining system design and implementation
+- Demo video showcasing platform functionality
+- Final presentation deck summarizing outcomes and architecture
+
+All materials are organized within the repository’s documentation folders.
 
 ## Architecture & Design Diagrams
 
@@ -134,17 +101,133 @@ Using AWS RDS eliminated the need to manage database infrastructure manually, al
 - Iterative refinement beats perfect upfront design
 Comparing initial and final swim lane diagrams revealed how feedback-driven iteration leads to more efficient and realistic system workflows.
 
-## Documentation & Deliverables 
+## Repo Structure  
 
-- Project management artifacts (scope, planning, and execution
-documents)
-- Technical documentation outlining system design and implementation
-- Demo video showcasing platform functionality
-- Final presentation deck summarizing outcomes and architecture
+```text
+├── Backend/
+│   └── routes/                         
+│       ├── appointments.js
+│       ├── barbers.js
+│       ├── customers.js
+│       ├── login.js 
+│       ├── payments.js
+│       ├── services.js 
+│       └── users.js
+│   ├── db.js
+│   ├── index.js
+│   ├── package-lock.json
+│   ├── package.json
+│   └── README.md
+├── Documentation/
+│   └── Project Management Documents/ 
+│       └── Communications/   
+│          ├── Innov8-Team3-SP2025-CIS4375-Communication Management Plan.pdf
+│          ├── Innov8-Team3-SP2025-CIS4375-Communication Management Plan.xlsx
+│          ├── Innov8-Team3-SP2025-CIS4375-Scope Diagram.vsdx
+│          ├── Innov8-Team3-SP2025-CIS4375-Team Roles.pdf            
+│          └── Innov8-Team3-SP2025-CIS4375-Team Roster.xlsx
+│       └── Integration/
+│              └── Status Reports/
+|                   ├── Innov8-Team3-SP2025-CIS4375-Status Report April7 to 11.docx
+|                   ├── Innov8-Team3-SP2025-CIS4375-Status Report Feb17 to 21.docx
+|                   ├── Innov8-Team3-SP2025-CIS4375-Status Report Feb24 to 28.docx
+|                   ├── Innov8-Team3-SP2025-CIS4375-Status Report March3 to 7.docx
+|                   ├── Innov8-Team3-SP2025-CIS4375-Status Report March17 to 21.docx
+|                   ├── Innov8-Team3-SP2025-CIS4375-Status Report March24 to 28.docx
+|                   └── Innov8-Team3-SP2025-CIS4375-Status Report March31 to April4.docx
+│          ├── Innov8-Team3-SP2025-CIS4375-Log Files.xlsx      
+│          └── Innov8-Team3-SP2025-CIS4375-Project Charter.pdf
+│       └── Quality, Resource and Cost/   
+│          ├── Innov8-Team3-SP2025-CIS4375-RACI Matrix.xlsx    
+│          └── Innov8-Team3-SP2025-CIS4375-Testing Matrix.xlsx
+│       └── Risk/   
+│          ├── Innov8-Team3-SP2025-CIS4375-Risk Management Matrix.xlsx             
+│          └── Innov8-Team3-SP2025-CIS4375-RiskLog.xlsx
+│       └── Scope/   
+│          ├── Innov8-Team3-SP2025-CIS4375-Requirements Traceability Matrix.xlsx
+│          ├── Innov8-Team3-SP2025-CIS4375-Scope Diagram PNG.png
+│          ├── Innov8-Team3-SP2025-CIS4375-Scope Diagram.vsdx
+│          ├── Innov8-Team3-SP2025-CIS4375-WBS Dictionary.pdf
+│          ├── Innov8-Team3-SP2025-CIS4375-WBS.pdf               
+│          └── Innov8-Team3-SP2025-CIS4375-Work Breakdown Structure (WBS).xlsx
+│   └── Technical Documents/                         
+│       ├── Innov8-Team3-SP2025-CIS4375-AWS Barbershop Deployment.png
+│       ├── Innov8-Team3-SP2025-CIS4375-BarberShopERD Final.png
+│       ├── Innov8-Team3-SP2025-CIS4375-Data_Dictionary.xlsx
+│       ├── Innov8-Team3-SP2025-CIS4375-FinalSwimLane.jpeg
+│       ├── Innov8-Team3-SP2025-CIS4375-GitHub Branches.png
+│       └── Innov8-Team3-SP2025-CIS4375-InitialSwimLane.png
+│   ├── Desktop 2025.03.24 - 16.27.52.01.mp4            
+│   ├── Innov8-Team3-SP2025-CIS4375-Presentation.pdf   
+│   └── Screenshot 2025-04-09 153009.png   
+├── frontend/
+│   └── public/                         
+│       └── vite.svg
+│   └── src/                         
+│       └── api/ 
+│           └── api.js
+│       └── assets/
+│           ├── barberlogo.png
+│           ├── location.jpg
+│           ├── mobile.jpg
+│           ├── photo1.jpg
+│           ├── photo2.jpg
+│           ├── photo3.jpg
+│           ├── photo4.jpg
+│           ├── photo5.jpg
+│           ├── photo6.jpg
+│           ├── project.jpg
+│           ├── review1.jpg
+│           ├── review2.jpg
+│           ├── review3.jpg
+│           ├── top_picture.jpg
+│           └── vue.svg
+│       └── components/
+│               └── charts/
+│                   └── BarChart.vue
+│                   └── PieChart.vue
+│           ├── backtotop.vue
+│           ├── footer.vue
+│           ├── loadingspinner.vue
+│           └── navbar.vue
+│       └── router/
+│           └── index.js
+│       └── views/
+│               └── portal/
+│                   ├── accountsetting.vue
+│                   ├── barberemployee.vue
+│                   ├── barberservice.vue
+│                   ├── booking.vue
+│                   ├── customers.vue
+│                   ├── dashboard.vue
+│                   ├── home.vue
+│                   ├── login.vue
+│                   └── users.vue
+│               └── webpage/
+│                   ├── appointment.vue
+│                   ├── czunigapage.vue
+│                   ├── gallery.vue
+│                   ├── location.vue
+│                   ├── review.vue
+│                   ├── services.vue
+│                   └── welcome.vue  
+│       └── App.vue
+│       └── main.js
+│       └── README.md
+│       └── style.css
+│   ├── .gitignore
+│   ├── index.html
+│   ├── netlify.toml
+│   ├── package-lock.json
+│   ├── package.json 
+│   ├── postcss.config.js
+│   ├── README.md
+│   └── vite.config.js
+│   ├── .gitignore
+│   └── README.md
+```
 
-All materials are organized within the repository’s documentation folders.
-
-## Repository Usage
+## Repo Usage
 
 To clone the repository locally:
 
@@ -153,15 +236,3 @@ gh repo clone https://github.com/tlklein/CIS-4375-Team3-CapstoneProject
 ```
 
 Refer to the frontend and backend directories for environment setup and execution instructions.
-
-## Why This Project Matters
-
-- End-to-end systems thinking: The project spans user-facing UX (Vue), API design (Node/Express), and persistent storage (MySQL on AWS RDS). That full-stack scope shows you can design and operate cross-layer systems, not just individual components.
-
-- Operational readiness: Implemented deployment and environment practices (containerization and CI/CD workflows), data modeling, and backup/availability considerations — all critical for moving from prototype to repeatable, supportable production services.
-
-- Team & stakeholder experience: Acting as Associate Project Manager required requirements gathering, risk management, and cross-functional coordination — transferable skills for mission-driven, process-heavy environments.
-
-- Platform-first thinking: The architecture and artifacts (ERD, swim lanes, future architecture) were created with extensibility and integration in mind, enabling future moves to cloud-native patterns, observability, and infrastructure automation.
-
-- Technical Delivery: Combines technical delivery, measurable operational improvements, and program-management experience — a compact evidence package that speaks to both engineering capability and program execution.
