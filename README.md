@@ -104,30 +104,31 @@ Comparing initial and final swim lane diagrams revealed how feedback-driven iter
 ## Repo Structure  
 
 ```text
-├── Backend/
-│   └── routes/                         
-│       ├── appointments.js
-│       ├── barbers.js
-│       ├── customers.js
-│       ├── login.js 
-│       ├── payments.js
-│       ├── services.js 
-│       └── users.js
-│   ├── db.js
-│   ├── index.js
-│   ├── package-lock.json
-│   ├── package.json
-│   └── README.md
-├── Documentation/
-│   └── Project Management Documents/ 
+├── Backend/                            # Server-side logic and API
+│   └── routes/                         # API endpoint definitions
+│       ├── appointments.js             # Routes for booking and managing appointments
+│       ├── barbers.js                  # Routes for barber profiles and schedules
+│       ├── customers.js                # Routes for customer profile management
+│       ├── login.js                    # Authentication logic and token generation
+│       ├── payments.js                 # Integration with payment processors
+│       ├── services.js                 # Routes for haircut/styling service details
+│       └── users.js                    # General user management (Admin/Staff)
+│   ├── db.js                           # Database connection configuration (e.g., Sequelize/Mongoose)
+│   ├── index.js                        # Entry point for the Express server
+│   ├── package-lock.json               # Locked versions of backend dependencies
+│   ├── package.json                    # Backend metadata and dependency list
+│   └── README.md                       # Documentation for backend setup
+│
+├── Documentation/                      # Project governance and design files
+│   └── Project Management Documents/       
 │       └── Communications/   
-│          ├── Innov8-Team3-SP2025-CIS4375-Communication Management Plan.pdf
-│          ├── Innov8-Team3-SP2025-CIS4375-Communication Management Plan.xlsx
-│          ├── Innov8-Team3-SP2025-CIS4375-Scope Diagram.vsdx
-│          ├── Innov8-Team3-SP2025-CIS4375-Team Roles.pdf            
-│          └── Innov8-Team3-SP2025-CIS4375-Team Roster.xlsx
+│          ├── Innov8-Team3-SP2025-CIS4375-Communication Management Plan.pdf        # Strategy for team and stakeholder communication
+│          ├── Innov8-Team3-SP2025-CIS4375-Communication Management Plan.xlsx       # Matrix for communication frequency/methods
+│          ├── Innov8-Team3-SP2025-CIS4375-Scope Diagram.vsdx               # Visual representation of project boundaries
+│          ├── Innov8-Team3-SP2025-CIS4375-Team Roles.pdf                   # Definition of member responsibilities
+│          └── Innov8-Team3-SP2025-CIS4375-Team Roster.xlsx                 # Contact list of team members
 │       └── Integration/
-│              └── Status Reports/
+│              └── Status Reports/                                          # Weekly progress updates (Feb through April)
 |                   ├── Innov8-Team3-SP2025-CIS4375-Status Report April7 to 11.docx
 |                   ├── Innov8-Team3-SP2025-CIS4375-Status Report Feb17 to 21.docx
 |                   ├── Innov8-Team3-SP2025-CIS4375-Status Report Feb24 to 28.docx
@@ -135,38 +136,39 @@ Comparing initial and final swim lane diagrams revealed how feedback-driven iter
 |                   ├── Innov8-Team3-SP2025-CIS4375-Status Report March17 to 21.docx
 |                   ├── Innov8-Team3-SP2025-CIS4375-Status Report March24 to 28.docx
 |                   └── Innov8-Team3-SP2025-CIS4375-Status Report March31 to April4.docx
-│          ├── Innov8-Team3-SP2025-CIS4375-Log Files.xlsx      
-│          └── Innov8-Team3-SP2025-CIS4375-Project Charter.pdf
+│          ├── Innov8-Team3-SP2025-CIS4375-Log Files.xlsx                   # Tracking for issues, decisions, or changes
+│          └── Innov8-Team3-SP2025-CIS4375-Project Charter.pdf              # Official document authorizing the project
 │       └── Quality, Resource and Cost/   
-│          ├── Innov8-Team3-SP2025-CIS4375-RACI Matrix.xlsx    
-│          └── Innov8-Team3-SP2025-CIS4375-Testing Matrix.xlsx
+│          ├── Innov8-Team3-SP2025-CIS4375-RACI Matrix.xlsx                 # Responsibility Assignment Matrix
+│          └── Innov8-Team3-SP2025-CIS4375-Testing Matrix.xlsx              # Quality assurance test cases and results
 │       └── Risk/   
-│          ├── Innov8-Team3-SP2025-CIS4375-Risk Management Matrix.xlsx             
-│          └── Innov8-Team3-SP2025-CIS4375-RiskLog.xlsx
+│          ├── Innov8-Team3-SP2025-CIS4375-Risk Management Matrix.xlsx      # Identification and impact of potential risks    
+│          └── Innov8-Team3-SP2025-CIS4375-RiskLog.xlsx                     # Ongoing tracking of active project risks
 │       └── Scope/   
-│          ├── Innov8-Team3-SP2025-CIS4375-Requirements Traceability Matrix.xlsx
-│          ├── Innov8-Team3-SP2025-CIS4375-Scope Diagram PNG.png
-│          ├── Innov8-Team3-SP2025-CIS4375-Scope Diagram.vsdx
-│          ├── Innov8-Team3-SP2025-CIS4375-WBS Dictionary.pdf
-│          ├── Innov8-Team3-SP2025-CIS4375-WBS.pdf               
-│          └── Innov8-Team3-SP2025-CIS4375-Work Breakdown Structure (WBS).xlsx
-│   └── Technical Documents/                         
-│       ├── Innov8-Team3-SP2025-CIS4375-AWS Barbershop Deployment.png
-│       ├── Innov8-Team3-SP2025-CIS4375-BarberShopERD Final.png
-│       ├── Innov8-Team3-SP2025-CIS4375-Data_Dictionary.xlsx
-│       ├── Innov8-Team3-SP2025-CIS4375-FinalSwimLane.jpeg
-│       ├── Innov8-Team3-SP2025-CIS4375-GitHub Branches.png
-│       └── Innov8-Team3-SP2025-CIS4375-InitialSwimLane.png
-│   ├── Desktop 2025.03.24 - 16.27.52.01.mp4            
-│   ├── Innov8-Team3-SP2025-CIS4375-Presentation.pdf   
-│   └── Screenshot 2025-04-09 153009.png   
+│          ├── Innov8-Team3-SP2025-CIS4375-Requirements Traceability Matrix.xlsx    # Maps requirements to their implementation/test
+│          ├── Innov8-Team3-SP2025-CIS4375-Scope Diagram PNG.png                    # Image version of the scope diagram
+│          ├── Innov8-Team3-SP2025-CIS4375-Scope Diagram.vsdx                       # Editable Visio file for scope
+│          ├── Innov8-Team3-SP2025-CIS4375-WBS Dictionary.pdf                       # Detailed descriptions of WBS tasks
+│          ├── Innov8-Team3-SP2025-CIS4375-WBS.pdf                                  # Visual Work Breakdown Structure hierarchy
+│          └── Innov8-Team3-SP2025-CIS4375-Work Breakdown Structure (WBS).xlsx      # Spreadsheet version of the WBS
+│   └── Technical Documents/                                                
+│       ├── Innov8-Team3-SP2025-CIS4375-AWS Barbershop Deployment.png       # Cloud infrastructure architecture diagram
+│       ├── Innov8-Team3-SP2025-CIS4375-BarberShopERD Final.png             # Database Entity Relationship Diagram
+│       ├── Innov8-Team3-SP2025-CIS4375-Data_Dictionary.xlsx                # Detailed database schema and field definitions
+│       ├── Innov8-Team3-SP2025-CIS4375-FinalSwimLane.jpeg                  # Process flow diagram (Final version)
+│       ├── Innov8-Team3-SP2025-CIS4375-GitHub Branches.png                 # Visualization of the version control strategy
+│       └── Innov8-Team3-SP2025-CIS4375-InitialSwimLane.png                 # Original process flow design
+│   ├── Desktop 2025.03.24 - 16.27.52.01.mp4                        # Video demonstration of the working app
+│   ├── Innov8-Team3-SP2025-CIS4375-Presentation.pdf                # Slide deck for the final project delivery
+│   └── Screenshot 2025-04-09 153009.png                            # Short visual preview of the application UI
+│
 ├── frontend/
 │   └── public/                         
-│       └── vite.svg
+│       └── vite.svg                       # Client-side application (Vue.js/Vite)
 │   └── src/                         
 │       └── api/ 
-│           └── api.js
-│       └── assets/
+│           └── api.js                     # Axios/Fetch configuration for backend calls
+│       └── assets/                        # Static images, brand assets, and reviews
 │           ├── barberlogo.png
 │           ├── location.jpg
 │           ├── mobile.jpg
@@ -182,50 +184,51 @@ Comparing initial and final swim lane diagrams revealed how feedback-driven iter
 │           ├── review3.jpg
 │           ├── top_picture.jpg
 │           └── vue.svg
-│       └── components/
+│       └── components/                    # Reusable UI widgets
 │               └── charts/
-│                   └── BarChart.vue
-│                   └── PieChart.vue
-│           ├── backtotop.vue
-│           ├── footer.vue
-│           ├── loadingspinner.vue
-│           └── navbar.vue
+│                   ├── BarChart.vue       # Data visualization for sales/appointments
+│                   └── PieChart.vue       # Data visualization for service popularity
+│           ├── backtotop.vue              # Scroll-to-top navigation utility
+│           ├── footer.vue                 # Global page footer component
+│           ├── loadingspinner.vue         # Visual feedback for data fetching
+│           └── navbar.vue                 # Primary navigation menu
 │       └── router/
-│           └── index.js
-│       └── views/
-│               └── portal/
-│                   ├── accountsetting.vue
-│                   ├── barberemployee.vue
-│                   ├── barberservice.vue
-│                   ├── booking.vue
-│                   ├── customers.vue
-│                   ├── dashboard.vue
-│                   ├── home.vue
-│                   ├── login.vue
-│                   └── users.vue
-│               └── webpage/
-│                   ├── appointment.vue
-│                   ├── czunigapage.vue
-│                   ├── gallery.vue
-│                   ├── location.vue
-│                   ├── review.vue
-│                   ├── services.vue
-│                   └── welcome.vue  
-│       └── App.vue
-│       └── main.js
-│       └── README.md
-│       └── style.css
-│   ├── .gitignore
-│   ├── index.html
-│   ├── netlify.toml
-│   ├── package-lock.json
-│   ├── package.json 
-│   ├── postcss.config.js
-│   ├── README.md
-│   └── vite.config.js
-│   ├── .gitignore
-│   └── README.md
-```
+│           └── index.js                   # Client-side route definitions (Vue Router)
+│       └── views/                         # Main page-level components
+│               └── portal/                # Authenticated/Admin dashboard views
+│                   ├── accountsetting.vue # User profile and password management
+│                   ├── barberemployee.vue # Admin view to manage staff
+│                   ├── barberservice.vue  # Management of services offered
+│                   ├── booking.vue        # Administrative appointment calendar
+│                   ├── customers.vue      # Customer CRM list view
+│                   ├── dashboard.vue      # Analytics overview for the business
+│                   ├── home.vue           # Landing page after logging into portal
+│                   ├── login.vue          # Internal staff login page
+│                   └── users.vue          # System user/permission management
+│               └── webpage/               # Public-facing marketing pages
+│                   ├── appointment.vue    # Public booking interface for clients
+│                   ├── czunigapage.vue    # Custom/Specialty landing page
+│                   ├── gallery.vue        # Portfolio of barber work
+│                   ├── location.vue       # Shop address and contact info page
+│                   ├── review.vue         # Customer feedback and ratings page
+│                   ├── services.vue       # Public price list and service menu
+│                   └── welcome.vue        # Public landing/hero page
+│       ├── App.vue                     # Root component of the Vue application
+│       ├── main.js                     # Main JavaScript entry point for Vue
+│       ├── README.md                   # Documentation for frontend development
+│       └── style.css                   # Global CSS styles
+│   ├── .gitignore                      # Files to exclude from Git (node_modules, etc)
+│   ├── index.html                      # Main HTML template for the SPA
+│   ├── netlify.toml                    # Deployment configuration for Netlify hosting
+│   ├── package-lock.json               # Locked versions of frontend dependencies
+│   ├── package.json                    # Frontend project metadata and scripts
+│   ├── postcss.config.js               # Configuration for CSS processing
+│   ├── README.md                       # Overview of the frontend repository
+│   └── vite.config.js                  # Build tool configuration for Vite
+│
+│   ├── .gitignore                      # Root-level Git exclusion file
+│   └── README.md                       # Top-level project overview and instructions
+``` 
 
 ## Repo Usage
 
