@@ -1,10 +1,10 @@
-# Innov8 Barber Shop Management System
+# Innov8 Barber Shop Management Platform
 
 ![banner](/Documentation/Screenshot%202025-04-09%20153009.png)
 
 ## Project Overview
 
-The Innov8 Barber Shop Management System is a web-based platform designed to streamline daily operations for a local barbershop by centralizing appointment scheduling, customer management, and business workflows. The system reduces scheduling conflicts, improves operational visibility, and enhances customer experience through structured data management and role-based workflows.
+The Innov8 Barber Shop Management Platform is a web-based platform designed to streamline daily operations for a local barbershop by centralizing appointment scheduling, customer management, and business workflows. The system reduces scheduling conflicts, improves operational visibility, and enhances customer experience through structured data management and role-based workflows.
 
 This project emphasized real-world requirements gathering, iterative system design, and cross-functional collaboration, simulating enterprise software delivery practices.
 
